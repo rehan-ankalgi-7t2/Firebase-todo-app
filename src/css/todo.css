@@ -1,0 +1,20 @@
+.list__item {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid blue; */
+    margin-bottom: 16px;
+    background: #f1f2f3;
+    border-radius: 8px;
+    padding: 4px;
+    box-sizing: border-box;
+}
+
+.list__left {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: flex-start;
+}
